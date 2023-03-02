@@ -11,7 +11,7 @@ jobs:
       - name: Checkout Sources
         uses: actions/checkout@v2
 
-      # https://github.com/marketplace/actions/anchore-container-scan
+# https://github.com/marketplace/actions/anchore-container-scan
       - name: Grype Dependency Scanner (Report)
         id: scan
         uses: anchore/scan-action@v3
